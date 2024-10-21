@@ -1,0 +1,39 @@
+
+    ***********************************************************************
+                               Castep Parser  
+              ----------------------------------------------
+
+                                Version 1.0
+
+                              Dr. Javier Ramos
+                      Macromolecular Physics Department
+                Instituto de Estructura de la Materia (IEM-CSIC)
+                               Madrid (Spain)
+
+        This utility is part of the polyanagro library. Polyanagro is an 
+        open-source python library to analyze simulations of polymer systems.
+
+        This software is distributed under the terms of the
+        GNU General Public License v3.0 (GNU GPLv3). A copy of
+        the license (LICENSE.txt) is included with this distribution.
+
+    ***********************************************************************
+        
+		Start Job at 06-08-2024 10:08:29 ============
+
+		Command line: 
+			python castep_parser_cmd.py -f Conf_0010.castep
+			         or
+			castep_parser_cmd.py -f Conf_0010.castep
+
+		 Write PDBs (./01-PDBs_OUT) and DAT (02-ITER_DAT) information 06-08-2024 10:08:29
+		 Number of castep files: 1
+
+		           **************** SUMMARY ***************
+
+		#              Name_job                   Energy(ev)      Delta_E (kcal/mol) Cluster_Number
+		# ==============================================================================================
+		 0                  Conf_0010                  -3191.49643   0.00 Not clustering
+
+		Job  Done at 06-08-2024 10:08:29 ============
+

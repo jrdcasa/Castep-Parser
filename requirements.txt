@@ -1,0 +1,5 @@
+numpy
+rdkit
+jupyter
+py3Dmol
+matplotlib

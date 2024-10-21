@@ -1,0 +1,4 @@
+[console_scripts]
+castep_parser_cmd = src.castep_parser_cmd:main_app
+cp2k_parser_cmd = src.cp2k_parser_cmd:main_app
+

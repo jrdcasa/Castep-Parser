@@ -1,0 +1,7 @@
+#Structure Label Energy(eV) DE(kcal/mol) 1/0_Not_converged/COnverged
+Conf_0001_DZVP opt.dat -4334.87313       0.00  0
+Conf_0014_DZVP opt.dat -4334.91431     -25.84  0
+Conf_0024_DZVP opt.dat -4334.93157     -36.68  0
+Conf_0030_DZVP opt.dat -4334.97169     -61.85  0
+Conf_0033_DZVP opt.dat -4334.94615     -45.83  0
+Conf_0037_DZVP opt.dat -4334.92969     -35.50  0

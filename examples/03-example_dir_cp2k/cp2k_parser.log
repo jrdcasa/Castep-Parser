@@ -1,0 +1,44 @@
+
+    ***********************************************************************
+                               Castep Parser  
+              ----------------------------------------------
+
+                                Version 1.0
+
+                              Dr. Javier Ramos
+                      Macromolecular Physics Department
+                Instituto de Estructura de la Materia (IEM-CSIC)
+                               Madrid (Spain)
+
+        This utility is part of the polyanagro library. Polyanagro is an 
+        open-source python library to analyze simulations of polymer systems.
+
+        This software is distributed under the terms of the
+        GNU General Public License v3.0 (GNU GPLv3). A copy of
+        the license (LICENSE.txt) is included with this distribution.
+
+    ***********************************************************************
+        
+		Start Job at 06-08-2024 12:47:58 ============
+
+		Command line: 
+			python cp2k_parser_cmd.py -d /home/jramos/Programacion/GITHUB_REPO_DIR/Castep-Parser/examples/03-example_dir_cp2k/OUTPUTS -p output*
+			         or
+			cp2k_parser_cmd.py -d /home/jramos/Programacion/GITHUB_REPO_DIR/Castep-Parser/examples/03-example_dir_cp2k/OUTPUTS -p output*
+
+		 Write PDBs (./01-PDBs_OUT) and DAT (02-ITER_DAT) information 06-08-2024 12:47:58
+		 Number of castep files: 6
+
+		           **************** SUMMARY ***************
+
+		#              Name_job                Energy(hartrees)   Delta_E (kcal/mol) Cluster_Number
+		# ==============================================================================================
+		 0        /Conf_0030_DZVP/output_opt.dat       -4334.97168907   0.00 Not clustering
+		 1        /Conf_0033_DZVP/output_opt.dat       -4334.94615345  16.02 Not clustering
+		 2        /Conf_0024_DZVP/output_opt.dat       -4334.93157161  25.17 Not clustering
+		 3        /Conf_0037_DZVP/output_opt.dat       -4334.92969409  26.35 Not clustering
+		 4        /Conf_0014_DZVP/output_opt.dat       -4334.91430960  36.01 Not clustering
+		 5        /Conf_0001_DZVP/output_opt.dat       -4334.87312543  61.85 Not clustering
+
+		Job  Done at 06-08-2024 12:47:59 ============
+
